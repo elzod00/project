@@ -14,7 +14,8 @@
 .header__title{
     padding: 15px;
     background: black;
-    transition: all 50ms;
+    transition: all 500ms;
+    border-radius: 50%;
 }
 .header__title:hover{
     background: darkblue;
