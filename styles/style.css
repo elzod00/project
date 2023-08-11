@@ -11,3 +11,11 @@
     align-items: center ;
     color: aliceblue;
 }
+.header__title{
+    padding: 15px;
+    background: black;
+    transition: all 50ms;
+}
+.header__title:hover{
+    background: darkblue;
+}
