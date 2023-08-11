@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 .header{
-    background: purple;
+    background: greenyellow;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center ;
-    color: aliceblue;
+    color: sandybrown;
 }
-.header__title{
-    padding: 15px;
-    background: black;
-    transition: all 500ms;
-    border-radius: 50%;
+.main{
+    height: 100vh;
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.header__title:hover{
-    background: darkblue;
+.box{
+    width: 200px;
+    height: 200px;
+    background: plum;
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 55% 35%, 65% 100%, 35% 100%, 43% 35%, 10% 50%);
+
 }
